@@ -18,11 +18,11 @@ import {
  const height = Dimensions.get('window').height;
 
 class AppIntroScreen extends PureComponent {
-
+console.log('hello');
   render(){
     return (
       <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
-      
+
       <View style={styles.mainViewStyle}>
 
       </View>
